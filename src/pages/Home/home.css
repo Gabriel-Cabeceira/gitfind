@@ -1,0 +1,90 @@
+.content {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.background {
+    height: 90vh;
+    position: absolute;
+    left: 0;
+}
+
+.info {
+    width: 60%;
+    margin-top: 5em;
+    color: #ffffff;
+}
+
+input {
+   min-width: 75%;
+   padding: 0.2em 1em;
+   border-radius: 20px;
+   font-size: 1.2em;
+   margin-right: 1em;
+   background-color: transparent;
+   color: #999999;
+   border: 1px solid #999999; 
+}
+
+button {
+    min-width: 10%;
+    color: #999999;
+    padding: 0.2em 1em;
+    border-radius: 20px;
+    font-size: 1.2em;
+    border: 1px solid #999999;
+    background-color: #2D333B;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 7px #999999;
+    text-shadow: 0 0 1px #999999;
+    border: 1px solid #ffffff;
+}
+
+.profile-field {
+    display: flex;
+    align-items: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    width: 95%;
+    justify-content: space-between;
+}
+
+.profile-picture {
+    width: 9em;
+    border-radius: 50%;
+    border: 1px solid #E5E5E5;
+}
+
+.personal-info {
+    width: 75%;
+    font-weight: 100;
+}
+
+.profile-name {
+    margin-top: 1em;
+}
+
+.profile-info {
+    margin: 1em 0;
+}
+
+hr {
+    width: 95%;
+}
+
+#repositories {
+    margin: 3em 0 3em 0;
+    width: 100%;
+}
+
+#repositories h2 {
+    font-size: 2em;
+    margin-bottom: 1.7em;
+    text-align: center;
+}
+
